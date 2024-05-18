@@ -1,0 +1,28 @@
+{
+    "name": "egor/lab5-composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Egor\\Lab5Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kazakov Egor",
+            "email": "egortumanov812@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Zloybabyrjon/CorrectionRomurs"
+        }
+    ],
+    "require": {
+        "romurs/lab5-composer": "dev-main"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.11",
+        "squizlabs/php_codesniffer": "3.*"
+    }
+}
